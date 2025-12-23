@@ -14,7 +14,7 @@
   color: white;
 }
 
-.container_notification b{
+.container_notification b {
   font-weight: 900;
 }
 
@@ -37,9 +37,8 @@
   border-radius: 5px;
 }
 
-.col-3,
-.col-4,
-.col-8 {
+.col-lg-4,
+.col-lg-8 {
   border: 2px dashed green;
 }
 
@@ -69,4 +68,10 @@
 .direct .direct_text {
   font-weight: bolder;
   font-size: 1.4rem;
+}
+
+/* Uniformiser la hauteur des images */
+.small_img {
+  height: 250px;
+  object-fit: cover;
 }
