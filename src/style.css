@@ -9,6 +9,15 @@
   background-color: #00a6e2;
 }
 
+.container_notification {
+  background-color: #000145;
+  color: white;
+}
+
+.container_notification b{
+  font-weight: 900;
+}
+
 .links_container {
   display: flex;
   justify-content: space-between;
@@ -21,10 +30,10 @@
   font-size: 1.1rem;
 }
 
-.links_container .nav .nav-item .nav-highlight{
+.links_container .nav .nav-item .nav-highlight {
   background-color: #4dc2eb;
   padding: 0 6px;
-  margin:0.5rem 0.5rem;
+  margin: 0.5rem 0.5rem;
   border-radius: 5px;
 }
 
@@ -45,7 +54,7 @@
   position: relative;
 }
 
-.logo .nombre {
+.logo .logo_number {
   position: absolute;
   font-size: 22px;
   top: 12px;
@@ -57,7 +66,7 @@
   justify-content: center;
 }
 
-.direct .texte {
+.direct .direct_text {
   font-weight: bolder;
   font-size: 1.4rem;
 }
