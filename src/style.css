@@ -6,10 +6,58 @@
 }
 
 .container_fluid {
-  border: 1px solid red;
+  background-color: #00a6e2;
 }
 
-.articles,
-.info_continu {
+.links_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap:5px; */
+}
+
+.links_container .nav .nav-item a {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.links_container .nav .nav-item .nav-highlight{
+  background-color: #4dc2eb;
+  padding: 0 6px;
+  margin:0.5rem 0.5rem;
+  border-radius: 5px;
+}
+
+.col-3,
+.col-4,
+.col-8 {
   border: 2px dashed green;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  background-color: #00a6e2;
+  color: white;
+  padding: 5px 5px;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+}
+
+.logo .nombre {
+  position: absolute;
+  font-size: 22px;
+  top: 12px;
+}
+
+.direct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.direct .texte {
+  font-weight: bolder;
+  font-size: 1.4rem;
 }
