@@ -2,6 +2,9 @@
 import * as bootstrap from 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+// Import FontAwesome
+import '@fortawesome/fontawesome-free/css/all.min.css'
+
 // Import custom styles
 import './style.css'
 

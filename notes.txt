@@ -1,6 +1,6 @@
------------------------------------
-Project Boostrap : FRance 24 clone
------------------------------------
+----------------------------
+Project Boostrap : Franze 24 
+----------------------------
 
 
 - npm create vite@latest . -- --template vanilla: This command initializes a new Vite project in the current directory using the vanilla JavaScript template.

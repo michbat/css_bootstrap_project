@@ -1,16 +1,15 @@
 /* Styles personnalisés pour votre projet */
 /* Bootstrap est déjà importé dans main.js */
 
-body {
-  background-color: #f8f9fa;
+.container {
+  border: 1px solid black;
 }
 
-.card {
-  transition: transform 0.2s;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.container_fluid {
+  border: 1px solid red;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+.articles,
+.info_continu {
+  border: 2px dashed green;
 }
