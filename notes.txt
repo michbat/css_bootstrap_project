@@ -1,0 +1,8 @@
+-----------------------------------
+Project Boostrap : FRance 24 clone
+-----------------------------------
+
+
+- npm create vite@latest . -- --template vanilla: This command initializes a new Vite project in the current directory using the vanilla JavaScript template.
+
+- npm install bootstrap @popperjs/core: This command installs Bootstrap and Popper.js as dependencies for the project.
